@@ -1,0 +1,51 @@
+.con{ 
+ 
+    padding: 0;
+     margin: 0;
+
+}
+
+.con .photos img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #aaa;
+    margin: 4px;
+}
+
+.con .photos img:hover {
+
+    border: 5px solid #080;
+    cursor: pointer;
+}
+.main {
+display: flex;
+
+
+}
+.main img {
+width: 400px;
+height: 400px;
+margin: 15px;
+
+
+}
+ .convert{
+
+    margin: 20px;   
+  
+}
+.convert input{
+
+    margin:20px;
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.convert label{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
